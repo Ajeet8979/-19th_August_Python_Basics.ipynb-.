@@ -1,0 +1,384 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2218d467-6ad5-4412-a709-a9a57ad40987",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 1 Python program to swap two variable without using any temprory value "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "b4a0bf01-c7bf-48f2-addb-30c0a198e3b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x= 8\n",
+      "y= 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= 6\n",
+    "y=8\n",
+    "x,y = y,x\n",
+    "print(\"x=\", x)\n",
+    "print(\"y=\", y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "31525070-d5fd-40c1-92f9-c18e8c20fa4e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 2 program that calculates the area of a rectangle."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "7697169c-09a3-47ed-8d3d-3f78a1f4b2c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the length of the rectangle:  5\n",
+      "Enter the width of the rectangle:  6\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The area of the rectangle is: 30.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user for length and width\n",
+    "length = float(input(\"Enter the length of the rectangle: \"))\n",
+    "width = float(input(\"Enter the width of the rectangle: \"))\n",
+    "\n",
+    "# Calculating the area of the rectangle\n",
+    "area = length * width\n",
+    "\n",
+    "# Displaying the calculated area\n",
+    "print(\"The area of the rectangle is:\", area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "2fe73fab-9a7f-42be-9f0a-5097a90d84f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "93dd83aa-d4b2-4b1a-baa5-ac7a72cdea7e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the temperature in Celsius:  20\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Fahrenheit: 68.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user for temperature in Celsius\n",
+    "celsius = float(input(\"Enter the temperature in Celsius: \"))\n",
+    "\n",
+    "# Converting Celsius to Fahrenheit\n",
+    "fahrenheit = (celsius * 9/5) + 32\n",
+    "\n",
+    "# Displaying the converted temperature in Fahrenheit\n",
+    "print(\"Temperature in Fahrenheit:\", fahrenheit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "bb874252-c073-4a27-81df-e6a629650414",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# String Based Questions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d764ffd0-7e5d-49db-8c57-b29cd3060932",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "d9633f40-9f91-4d99-9d06-2f4ba3ce5106",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  ajeet\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The length of the string is: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user\n",
+    "input_string = input(\"Enter a string: \")\n",
+    "\n",
+    "# Calculating and printing the length of the input string\n",
+    "length = len(input_string)\n",
+    "print(\"The length of the string is:\", length)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d9f75749-cb9b-45c4-aef5-24733e284205",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "183ccecf-abf2-4ce5-a0a4-94db0523e0a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a sentence:  I am ajeet singh\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of vowels in the sentence: 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user\n",
+    "sentence = input(\"Enter a sentence: \")\n",
+    "\n",
+    "# Converting the sentence to lowercase for case-insensitive counting\n",
+    "sentence = sentence.lower()\n",
+    "\n",
+    "# Initializing variables to count vowels\n",
+    "vowel_count = 0\n",
+    "\n",
+    "# Loop through each character in the sentence\n",
+    "for char in sentence:\n",
+    "    if char in \"aeiou\":\n",
+    "        vowel_count += 1\n",
+    "\n",
+    "# Displaying the vowel count\n",
+    "print(\"Number of vowels in the sentence:\", vowel_count)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "1cfe871c-aaa0-41bb-b1bf-8cfd1085bbe3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "018198f9-f104-40ab-911b-fbea73f95c1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  ajeetsingh\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Reversed string: hgnisteeja\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user\n",
+    "input_string = input(\"Enter a string: \")\n",
+    "\n",
+    "# Reversing the string using string slicing\n",
+    "reversed_string = input_string[::-1]\n",
+    "\n",
+    "# Displaying the reversed string\n",
+    "print(\"Reversed string:\", reversed_string)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "35157f0b-292b-4ea1-8968-5687ef7b2680",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 4 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "31e9c1ec-d912-49f5-b2ab-cf16aa21c1ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  pwskills\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The input string is not a palindrome.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user\n",
+    "input_string = input(\"Enter a string: \")\n",
+    "\n",
+    "# Removing spaces and converting to lowercase for accurate comparison\n",
+    "cleaned_string = input_string.replace(\" \", \"\").lower()\n",
+    "\n",
+    "# Reversing the string using string slicing\n",
+    "reversed_string = cleaned_string[::-1]\n",
+    "\n",
+    "# Checking if the original and reversed strings are the same\n",
+    "if cleaned_string == reversed_string:\n",
+    "    print(\"The input string is a palindrome.\")\n",
+    "else:\n",
+    "    print(\"The input string is not a palindrome.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "df4aeb31-dcce-485f-a48a-ce5f100cc585",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ques 5 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "7e8d71bc-811b-4346-8fd0-f96c906836e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  c omputer\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Modified string: computer\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Taking input from the user\n",
+    "input_string = input(\"Enter a string: \")\n",
+    "\n",
+    "# Removing spaces from the string\n",
+    "modified_string = input_string.replace(\" \", \"\")\n",
+    "\n",
+    "# Displaying the modified string without spaces\n",
+    "print(\"Modified string:\", modified_string)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fc7bc12c-5af2-4998-838d-2082ab82006a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
